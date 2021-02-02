@@ -30,21 +30,21 @@ BOARD_COLORS = [(GRAY_LIGHT, GRAY_DARK),
                 (LICHESS_GRAY_LIGHT, LICHESS_GRAY_DARK)]
 BOARD_COLOR = choice(BOARD_COLORS)
 
-BLACK_KING   = pygame.image.load('images/black_king.png')
-BLACK_QUEEN  = pygame.image.load('images/black_queen.png')
-BLACK_ROOK   = pygame.image.load('images/black_rook.png')
-BLACK_BISHOP = pygame.image.load('images/black_bishop.png')
-BLACK_KNIGHT = pygame.image.load('images/black_knight.png')
-BLACK_PAWN   = pygame.image.load('images/black_pawn.png')
-BLACK_JOKER  = pygame.image.load('images/black_joker.png')
+BLACK_KING   = pygame.image.load('black_king.png')
+BLACK_QUEEN  = pygame.image.load('black_queen.png')
+BLACK_ROOK   = pygame.image.load('black_rook.png')
+BLACK_BISHOP = pygame.image.load('black_bishop.png')
+BLACK_KNIGHT = pygame.image.load('black_knight.png')
+BLACK_PAWN   = pygame.image.load('black_pawn.png')
+BLACK_JOKER  = pygame.image.load('black_joker.png')
 
-WHITE_KING   = pygame.image.load('images/white_king.png')
-WHITE_QUEEN  = pygame.image.load('images/white_queen.png')
-WHITE_ROOK   = pygame.image.load('images/white_rook.png')
-WHITE_BISHOP = pygame.image.load('images/white_bishop.png')
-WHITE_KNIGHT = pygame.image.load('images/white_knight.png')
-WHITE_PAWN   = pygame.image.load('images/white_pawn.png')
-WHITE_JOKER  = pygame.image.load('images/white_joker.png')
+WHITE_KING   = pygame.image.load('white_king.png')
+WHITE_QUEEN  = pygame.image.load('white_queen.png')
+WHITE_ROOK   = pygame.image.load('white_rook.png')
+WHITE_BISHOP = pygame.image.load('white_bishop.png')
+WHITE_KNIGHT = pygame.image.load('white_knight.png')
+WHITE_PAWN   = pygame.image.load('white_pawn.png')
+WHITE_JOKER  = pygame.image.load('white_joker.png')
 
 CLOCK = pygame.time.Clock()
 CLOCK_TICK = 15
@@ -52,7 +52,7 @@ CLOCK_TICK = 15
 SCREEN = pygame.display.set_mode((8*SQUARE_SIDE, 8*SQUARE_SIDE), pygame.RESIZABLE)
 SCREEN_TITLE = 'Chess Game'
 
-pygame.display.set_icon(pygame.image.load('images/chess_icon.ico'))
+pygame.display.set_icon(pygame.image.load('chess_icon.ico'))
 pygame.display.set_caption(SCREEN_TITLE)
 
 def resize_screen(square_side_len):
